@@ -32,13 +32,9 @@ and open the template in the editor.
            var btnadd=getObj("btnadd");
            var result=getObj("result");
            
-            
-            
-            btnadd.onclick = function(){
-                result.innerHTML=num1.value+num2.value;
+                btnadd.onclick = function(){
+                result.innerHTML=parseInt( num1.value)+parseInt(num2.value);
             };
-            
-            
-        </script>
+         </script>
     </body>
 </html>
